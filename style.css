@@ -111,6 +111,23 @@ p {
     width: 80%;
 }
 
+.cta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.6rem;
+    margin: 6rem auto;
+    padding: 6rem 0;
+    text-align: center;
+    width: 80%;
+}
+
+.cta h1 {
+    color: white;
+    margin-bottom: 1.8rem;
+    padding: 0;
+}
+
 .facilities {
     margin: auto;
     padding-top: 6rem;
@@ -277,6 +294,10 @@ p {
         display: block;
         font-size: 1.25rem;
         margin: 1rem;
+    }
+
+    .cta h1 {
+        font-size: 1.5rem;
     }
     
     .nav-links {
