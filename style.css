@@ -53,6 +53,23 @@ p {
     padding: 0.6rem;
 }
 
+.about-column {
+    flex-basis: 48%;
+    padding: 2rem 0.1rem;
+}
+
+.about-column h1 {
+    padding-top: 0;
+}
+
+.about-column img {
+    width: 100%;
+}
+
+.about-column p {
+    padding: 1rem 0 1.3rem;
+}
+
 .about-header {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/background.jpg);
     background-position: center;
@@ -65,6 +82,13 @@ p {
 
 .about-header h1 {
     margin-top: 6rem;
+}
+
+.about-us {
+    margin: auto;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    width: 80%;
 }
 
 .btn {
@@ -255,6 +279,16 @@ p {
 
 .nav-links ul li:hover::after {
     width: 100%;
+}
+
+.red-btn {
+    background: transparent;
+    border: 1px solid #F44336;
+    color: #F44336;
+}
+
+.red-btn:hover {
+    color: white;
 }
 
 .row {
