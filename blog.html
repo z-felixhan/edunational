@@ -1,57 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edunational</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- HERO SECTION START -->
     <section class="about-header">
-        <nav>
-            <div class="logo">
-                <a href="index.html"><i class="fas fa-graduation-cap"></i>&nbsp;Edunational</a>
-            </div>
-            <div id="nav-links" class="nav-links">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./courses.html">Courses</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1></h1>
+      <nav>
+        <div class="logo">
+          <a href="index.html"
+            ><i class="fas fa-graduation-cap"></i>&nbsp;Edunational</a
+          >
+        </div>
+        <div id="nav-links" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Latest Content</h1>
     </section>
     <!-- HERO SECTION END -->
 
     <!-- BLOG CONTENT START -->
-    
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./assets/certificate.jpg" />
+          <h2>Our Certificate & Online Programs</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+            ipsa odio placeat adipisci quo modi magnam, dignissimos repudiandae
+            sed ad ut ullam! Officia libero ipsam ullam distinctio. Quisquam
+            explicabo in iure temporibus commodi sit sunt quod, distinctio
+            tempora tenetur consectetur!
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, at
+            sapiente! Pariatur eius doloremque distinctio ipsum ipsa!
+            Voluptatibus iure reiciendis, laboriosam ipsam, laborum animi dolore
+            totam accusantium vero impedit voluptatum maiores blanditiis nihil
+            laudantium beatae ducimus voluptates unde atque quas minima quia
+            possimus. Ipsam dolore necessitatibus veniam eum natus doloremque,
+            pariatur facilis quidem nam ipsum illum, vitae error, iure quos esse
+            tempora autem nobis ratione dolor alias est commodi corporis.
+            Dignissimos molestias deserunt vel voluptas ipsum mollitia eveniet
+            nostrum, consequatur non perspiciatis dolore aut in atque
+            blanditiis, ullam optio reprehenderit eum earum! Sit officiis
+            obcaecati debitis doloribus quia tempora vero?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis,
+            harum? Culpa eius distinctio, vel, expedita cumque est doloremque
+            omnis consequuntur ea maxime maiores modi provident dicta dolores
+            quos nisi odit.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            iusto dolore nihil reiciendis rerum consequuntur.
+          </p>
+          <div class="comment-box">
+              <h3>Leave a comment</h3>
+              <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="10" placeholder="Please enter comment here"></textarea>
+                <button type="submit" class="btn red-btn">Submit</button>
+              </form>
+          </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>27</span>
+            </div>
+        </div>
+      </div>
+    </section>
     <!-- BLOG CONTENT END -->
 
     <!-- FOOTER SECTION START -->
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repellat delectus laudantium soluta, adipisci voluptatum commodi laborum consequatur molestiae earum possimus sequi dicta. Molestiae, dignissimos.</p>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <p>© Felix</p>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        repellat delectus laudantium soluta, adipisci voluptatum commodi laborum
+        consequatur molestiae earum possimus sequi dicta. Molestiae,
+        dignissimos.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>© Felix</p>
     </section>
     <!-- FOOTER SECTION END -->
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
