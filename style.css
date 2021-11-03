@@ -186,7 +186,9 @@ p {
 }
 
 .comment-form input,
-.comment-form textarea {
+.comment-form textarea,
+.contact-column input,
+.contact-column textarea {
   background: #f0f0f0;
   border: none;
   box-sizing: border-box;
@@ -199,6 +201,41 @@ p {
 
 .comment-form button {
   margin: 0.75rem 0;
+}
+
+.contact-column {
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+}
+
+.contact-column div {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.contact-column div .fa,
+.contact-column div .fas {
+  color: #f44336;
+  font-size: 1.75rem;
+  margin: 0.7rem;
+  margin-right: 1.9rem;
+}
+
+.contact-column div h5 {
+  color: #555;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+.contact-column div p {
+  padding: 0;
+}
+
+.contact-us {
+  margin: auto;
+  width: 80%;
 }
 
 .course-column {
@@ -326,6 +363,16 @@ p {
 .layer:hover h3 {
   bottom: 50%;
   opacity: 1;
+}
+
+.location {
+  margin: auto;
+  padding: 5.5rem 0;
+  width: 80%;
+}
+
+.location iframe {
+  width: 100%;
 }
 
 .nav-links {
