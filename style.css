@@ -492,7 +492,7 @@ p {
   .nav-links {
     background: #f44336;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     right: -12.5rem;
     text-align: left;
     top: 0;
