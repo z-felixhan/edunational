@@ -70,10 +70,6 @@ p {
   padding: 1rem 0 1.3rem;
 }
 
-.about-header h1 {
-  margin-top: 6rem;
-}
-
 .about-us {
   margin: auto;
   padding-bottom: 3rem;
@@ -314,6 +310,10 @@ p {
   height: 50vh;
   text-align: center;
   width: 100%;
+}
+
+.hero-about h1 {
+  margin-top: 6rem;
 }
 
 .home {
