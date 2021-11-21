@@ -88,12 +88,16 @@
           </p>
           <div class="comment-box">
             <h3>Leave a comment</h3>
-            <form class="comment-form">
-              <input type="text" placeholder="Enter Name" />
-              <input type="email" placeholder="Enter Email" />
+            <form
+              class="comment-form"
+              onsubmit="alert('Comment submitted!'); return false;"
+            >
+              <input type="text" placeholder="Enter Name" required />
+              <input type="email" placeholder="Enter Email" required />
               <textarea
                 rows="10"
                 placeholder="Please enter comment here"
+                required
               ></textarea>
               <button type="submit" class="btn red-btn">Submit</button>
             </form>
