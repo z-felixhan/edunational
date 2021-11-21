@@ -19,6 +19,10 @@ h3 {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   padding: 2% 6%;
